@@ -1,6 +1,6 @@
 {
   "name": "stromer-api",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Access the API of the Stromer electric bike.",
   "author": "Tim Broddin",
   "main": "lib/index.js",
@@ -12,6 +12,7 @@
   "license": "MIT",
   "dependencies": {
     "@babel/polyfill": "^7.0.0",
+    "@babel/register": "^7.0.0",
     "cheerio": "^1.0.0-rc.2",
     "moment": "^2.22.2",
     "qs": "^6.5.2",
@@ -22,7 +23,6 @@
     "@babel/core": "^7.1.2",
     "@babel/node": "^7.0.0",
     "@babel/preset-env": "^7.1.0",
-    "@babel/register": "^7.0.0",
     "request-debug": "^0.2.0"
   },
   "scripts": {
