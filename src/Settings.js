@@ -14,7 +14,7 @@ class Settings {
     await Promise.all([
       this.getMainSettings(),
       this.getSensorSettings(),
-      this.getTuning()
+      this.getTuningSettings()
     ]);
     return this.settings;
   }
@@ -59,7 +59,7 @@ class Settings {
     ]);
   }
 
-  async getTuning() {
+  async getTuningSettings() {
     return await this.getSettings([
       "tuning_speed",
       "tuning_torque",
