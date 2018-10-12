@@ -1,6 +1,6 @@
 {
   "name": "stromer-api",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Access the API of the Stromer electric bike.",
   "author": "Tim Broddin",
   "main": "lib/index.js",
