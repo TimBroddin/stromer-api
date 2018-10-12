@@ -36,7 +36,7 @@ Let's say you've initiated the API like I did above:
 | Method                                | Returns                                                              |
 | ------------------------------------- | -------------------------------------------------------------------- |
 | api.bike.state.get(cached = false)    | The state of your bike (battery info, FW version, temperatures, ...) |
-| api.bike.state.get(cached = false)    | The position of your bike                                            |
+| api.bike.position.get(cached = false)    | The position of your bike                                            |
 | api.bike.serviceInfo.get()            | Technical details of all your bike parts (not in official app)       |
 | api.bike.settings.get()               | Get all settings                                                     |
 | api.bike.settings.getMainSettings()   | Get main settings (auto lock, ...)                                   |
