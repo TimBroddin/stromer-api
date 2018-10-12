@@ -1,6 +1,6 @@
 # Stromer API for Node JS
 
-This NPM package provides an wrapper for the [Stromer e-bikes API](https://www.stromerbike.com/fr_BE.html). By using this package you can get your bike's status, position and much more.
+This NPM package provides a wrapper for the [Stromer e-bikes API](https://www.stromerbike.com/fr_BE.html). By using this package you can get your bike's status, position and much more.
 
 ## Installation
 
