@@ -168,4 +168,4 @@ class Stromer {
   }
 }
 
-export default Stromer;
+module.exports = Stromer;
